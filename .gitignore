@@ -19,3 +19,5 @@ log.txt
 .DS_Store
 scripts/shape/__pycache__
 pics/lumpy.jpg
+practica/week1/.ipynb_checkpoints/
+practica/pics/.ipynb_checkpoints/mars.nasa-checkpoint.jpg
