@@ -8,7 +8,7 @@ word = "paard"
 counter = 0
 
 # Loop over each letter in string:
-for char in word:
+for char in word: 
 	
 	# Check if character is vowel:
     if char == "a"or char == "e" or char ==  "i" or char == "o"or char == "u":
