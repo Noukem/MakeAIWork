@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 length,width,weight,deckHeight,robotArmLength,numberOfSolarPanels,scienceInstruments
 6,1.56,360,"(83, 108)",1.8,2,"('seismometer', 'heat probe', 'radio science experiment')"
+=======
+length,width,weight,deckHeight,robotArmLength,numberOfSolarPanels,scienceInstruments,image
+6,1.56,360,"(83, 108)",1.8,2,"('seismometer', 'heat probe', 'radio science experiment')",../../pics/mars.nasa.jpg
+>>>>>>> a08a271fb2c87009dcac5ce46e3abd23e353dbeb
