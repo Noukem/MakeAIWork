@@ -71,7 +71,15 @@ class Command(BaseCommand):
         if Netlify.objects.exists():
             logging.warning('netlify data already loaded...exiting.')
             logging.warning(ALREADY_LOADED_ERROR_MESSAGE)
+<<<<<<< HEAD:Projects/Project1/rest_server_new/medisch_centrum_randstad/rest_api/management/commands/load_data.py
 
             return
 
         self.loadFromCSV('data/data.csv')
+=======
+            
+            return
+
+        self.loadFromCSV('data/data.csv')          
+        self.loadFromCSV('data/webscrapedata.csv')      
+>>>>>>> 0e655c79d5a317bd84c165dd5bf416fd9bd06da7:projects/proj_gezondheidszorg/rest_server/medisch_centrum_randstad/rest_api/management/commands/load_data.py
