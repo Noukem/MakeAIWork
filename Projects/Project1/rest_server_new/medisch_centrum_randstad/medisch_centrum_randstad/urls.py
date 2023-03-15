@@ -9,6 +9,6 @@ from rest_framework.response import Response
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api-auth/', include('rest_framework.urls')),
-    path('medish_centrum_randstad/', include(rest_urls)),
+    path('medisch_centrum_randstad/', include(rest_urls)),
 ]
 
