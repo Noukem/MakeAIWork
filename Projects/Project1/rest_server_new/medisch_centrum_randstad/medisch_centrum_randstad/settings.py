@@ -84,6 +84,7 @@ DATABASES = {
 
 REST_FRAMEWORK = {
 <<<<<<< HEAD:Projects/Project1/rest_server_new/medisch_centrum_randstad/medisch_centrum_randstad/settings.py
+<<<<<<< HEAD:Projects/Project1/rest_server_new/medisch_centrum_randstad/medisch_centrum_randstad/settings.py
     'DEFAULT_PAGINATION_CLASS': 'rest_api.views.CustomPagination',
     'PAGE_SIZE': 100
 =======
@@ -92,6 +93,10 @@ REST_FRAMEWORK = {
     # 'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
     # 'PAGE_SIZE': 1
 >>>>>>> 0e655c79d5a317bd84c165dd5bf416fd9bd06da7:projects/proj_gezondheidszorg/rest_server/medisch_centrum_randstad/medisch_centrum_randstad/settings.py
+=======
+    'DEFAULT_PAGINATION_CLASS': 'rest_api.pagination.CustomPageNumberPagination',
+    'PAGE_SIZE': 1
+>>>>>>> bd89276b16625f9cf260d631a5462ff338edb349:projects/proj_gezondheidszorg/rest_server/medisch_centrum_randstad/medisch_centrum_randstad/settings.py
 }
 
 

@@ -80,6 +80,10 @@ class Command(BaseCommand):
             
             return
 
+<<<<<<< HEAD:Projects/Project1/rest_server_new/medisch_centrum_randstad/rest_api/management/commands/load_data.py
         self.loadFromCSV('data/data.csv')          
         self.loadFromCSV('data/webscrapedata.csv')      
 >>>>>>> 0e655c79d5a317bd84c165dd5bf416fd9bd06da7:projects/proj_gezondheidszorg/rest_server/medisch_centrum_randstad/rest_api/management/commands/load_data.py
+=======
+        self.loadFromCSV('data/data.csv')
+>>>>>>> bd89276b16625f9cf260d631a5462ff338edb349:projects/proj_gezondheidszorg/rest_server/medisch_centrum_randstad/rest_api/management/commands/load_data.py
