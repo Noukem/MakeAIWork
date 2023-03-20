@@ -1,0 +1,33 @@
+.message {
+    font-weight: 800;
+    color: rgb(110, 74, 189);
+   }
+
+.navbar {
+    background-color: rgb(224, 181, 226);
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(19, 10, 52);
+    padding: 10px 12px 5px 8px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar-brand {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.navbar-item {
+    font-variant: small-caps;
+    margin-left: 500px;
+}
+
+.body-content {
+    padding: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 0px;
+}
