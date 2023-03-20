@@ -12,8 +12,13 @@ from pathlib import Path
 # Voeg eigen transformatie toe
 
 # Global configuration
+<<<<<<< HEAD
 logging.basicConfig(level=logging.DEBUG)
 dbName = "../Projects/Project1/rest_server_new/db.sqlite3"
+=======
+logging.basicConfig(level=logging.INFO)
+dbName = "../rest_server/medisch_centrum_randstad/db.sqlite3"
+>>>>>>> 4c21a8afb1b1eca08f91560f22b7add390b23db3
 tableName = "rest_api_netlify"
 
 # Collecting the data

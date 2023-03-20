@@ -14,8 +14,12 @@ from sklearn.neighbors import KNeighborsRegressor
 # Voeg eigen model training toe
 
 # Global configuration
+<<<<<<< HEAD
 logging.basicConfig(level=logging.DEBUG)
 # Vervang bestandsnaam en maak mapje models aan
+=======
+logging.basicConfig(level=logging.INFO)
+>>>>>>> 4c21a8afb1b1eca08f91560f22b7add390b23db3
 exportFile = "../models/knn.pkl"
 
 dbName = "../rest_server/medisch_centrum_randstad/db.sqlite3"
