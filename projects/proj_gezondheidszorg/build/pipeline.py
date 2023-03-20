@@ -8,9 +8,12 @@ import sqlite3
 # Hardening
 from pathlib import Path
 
+# TODO
+# Voeg eigen transformatie toe
+
 # Global configuration
 logging.basicConfig(level=logging.DEBUG)
-dbName = "../rest_server/medisch_centrum_randstad/db.sqlite3"
+dbName = "../Projects/Project1/rest_server_new/db.sqlite3"
 tableName = "rest_api_netlify"
 
 # Collecting the data
@@ -18,12 +21,12 @@ logging.info("Load transformed data from database into dataframe")
 
 logging.info(f"Connect to {Path(dbName).name}")
 dbConnection = sqlite3.connect(dbName)
-dfFromDB = pd.read_sql_query(f"SELECT * FROM {tableName}", dbConnection)
+df = pd.read_sql_query(f"SELECT * FROM {tableName}", dbConnection)
 logging.debug(dfFromDB.head())
 
 # Cleaning
 logging.info("Preprocessing : remove rows with missing values")
-dfCleanFromDB = dfFromDB.dropna()
+dfCleanFromDB = df.dropna()
 logging.debug(dfCleanFromDB.head())
 
 # Transform

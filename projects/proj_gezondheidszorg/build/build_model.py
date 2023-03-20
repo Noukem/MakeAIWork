@@ -10,8 +10,12 @@ import sqlite3
 from pathlib import Path
 from sklearn.neighbors import KNeighborsRegressor
 
+# TODO
+# Voeg eigen model training toe
+
 # Global configuration
 logging.basicConfig(level=logging.DEBUG)
+# Vervang bestandsnaam en maak mapje models aan
 exportFile = "../models/knn.pkl"
 
 dbName = "../rest_server/medisch_centrum_randstad/db.sqlite3"
